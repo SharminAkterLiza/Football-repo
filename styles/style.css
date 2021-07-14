@@ -1,0 +1,88 @@
+/* fonts-poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    }
+    /*-------------
+     header style
+      ------------- */
+      .banner{
+          display: flex;
+          width: 1440px;
+          height: 677px;
+          color: white;
+          font-size: 32px;
+          padding-left: 152px;
+          padding-top: 216px;
+          padding-bottom:231px ;
+          align-items: center;
+          background-color:#2D25A0;
+          margin-bottom: 70px;
+      }
+      .banner:hover{
+          color: tomato;
+      }
+      .banner a{
+          text-decoration: none;
+          background-color:#E02C6D ;
+          color: white;
+          font-size: 20px;
+          padding: 10px;
+          
+      }
+      .banner img{
+   width: 556px;
+   height: 438;
+   padding-right: 141px;
+   padding-left: 106px;
+   padding-top: 153px;
+   padding-bottom: 86px;
+      }
+    /*-----------
+     players part style
+      ---------- */
+      .players{
+    padding-left:180px ;
+    padding-right: 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    
+}
+.player{
+    width: 300px;
+    height: 474px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px 50px lightgray;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+/*-----------
+ footer style
+  -------------*/
+footer{
+    Width:483.87px;
+    Height:213px;
+    text-align: center;
+    margin-top: 158px;
+     margin-left: 475px;
+    margin-right:482px ;
+}
+.fas{
+   
+    font-size: 30px;
+    margin:15px;
+}
+.font-style{
+    padding-bottom: 63px;
+}
+.font-style:hover{
+    color: blue;
+}
+   
