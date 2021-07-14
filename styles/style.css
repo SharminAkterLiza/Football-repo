@@ -71,8 +71,7 @@ body{
     text-align: center;
     margin-left: 200px;
     padding-left: 50px;
-   
-}
+    }
 h1{
    
     font-size: 40px;
@@ -114,8 +113,7 @@ span{
   -------------*/
 
 footer{
-    background-image: url(images/background.png);
-    Width:483.87px;
+   Width:483.87px;
     Height:213px;
     text-align: center;
     margin-top: 158px;
